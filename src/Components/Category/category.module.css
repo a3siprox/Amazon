@@ -1,0 +1,37 @@
+.category__container {
+	width: 100%;
+	position: relative;
+	margin-top: -10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.category {
+	height: 350px;
+	width: 280px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0, 0.2);
+}
+
+.category img {
+	width: 100%;
+	object-fit: contain;
+	max-height: 250px;
+}
+
+.category a {
+	text-decoration: none;
+	color: rgb(35, 35, 35);
+}
+
+.category :is(h2, p) {
+	padding: 5px;
+	margin-left: 15px;
+}
+
+.category p {
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(9, 132, 209);
+}
